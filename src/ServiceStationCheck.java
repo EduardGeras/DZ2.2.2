@@ -1,3 +1,3 @@
 public interface ServiceStationCheck {
-    public void check();
+    public void print(Bicycle bicycle);
 }
