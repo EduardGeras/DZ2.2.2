@@ -22,11 +22,11 @@ public class Main {
         bicycle2.wheelsCount = 2;
 
         ServiceStation station = new ServiceStation();
-        car.check(car, null, null);
-        //station.check(car2, null, null);
-        bicycle.check(bicycle);
-        /*station.check(null, bicycle2, null);
-        station.check(null, null, truck);
-        station.check(null, null, truck2);*/
+        station.check(car);
+        station.check(car2);
+        station.check(bicycle);
+        station.check(bicycle2);
+        station.check(truck);
+        station.check(truck2);
     }
 }
