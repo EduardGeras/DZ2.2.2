@@ -1,7 +1,7 @@
 
 public class ServiceStation{
 
-    public void check(Car car, Bicycle bicycle, Truck truck) {
+    /*public void check(Car car, Bicycle bicycle, Truck truck) {
         if (car != null) {
             System.out.println("Обслуживаем " + car.modelName);
             for (int i = 0; i < car.wheelsCount; i++) {
@@ -21,5 +21,5 @@ public class ServiceStation{
                 bicycle.updateTyre();
             }
         }
-    }
+    }*/
 }

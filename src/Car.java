@@ -1,12 +1,12 @@
-public class Car extends Bicycle {
-    /* public String modelName;
-    public int wheelsCount;
+public class Car extends Transport {
 
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }*/
-
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель");
+    public void check(Car car, Bicycle bicycle, Truck truck) {
+        if (car != null) {
+            System.out.println("Обслуживаем " + car.modelName);
+            for (int i = 0; i < car.wheelsCount; i++) {
+                car.updateTyre();
+            }
+            car.checkEngine();
+        }
     }
 }
